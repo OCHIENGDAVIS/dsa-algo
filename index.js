@@ -4,6 +4,8 @@ import {
 	sumZero,
 	isAnagrams,
 	contUniquevalues,
-} from './src/charMap.js';
+	contUniquevalues2,
+	maxSubArraySum,
+} from './src/index.js';
 
-console.log(contUniquevalues([-2, -1, -1, 0, 1]));
+console.log(maxSubArraySum([2, 6, 9, 2, 1, 8, 5, 6, 3], 3));

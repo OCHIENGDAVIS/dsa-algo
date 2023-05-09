@@ -29,6 +29,6 @@ export function recursiveFactorial(num) {
 	if (num === 1) {
 		return i;
 	} else {
-		return num * factorial(num - 1);
+		return factorial(num - 1);
 	}
 }

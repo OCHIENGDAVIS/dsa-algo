@@ -14,8 +14,17 @@ import {
 	recursiveFactorial,
 } from './src/recusion.js';
 
+import { search } from './src/linearSearch.js';
+import { binarySearch } from './src/binarySearch.js';
+import { reducer, addUsingSplice } from './src/arrayMethods.js';
+import { naiveStringSearch } from './src/stringSearch.js';
+
 // console.log(maxSubArraySum([2, 6, 9, 2, 1, 8, 5, 6, 3], 3));
 
 // coutDown(10);
 // console.log(someRange(4));
-console.log('Factorial: ', recursiveFactorial(5));
+// console.log(binarySearch([2, 6, 9, 2], 9));
+
+// console.log(reducer([12, 45, 5]));
+// console.log(addUsingSplice([12, 45, 5], 12, 34, 56, 67, 67));
+console.log(naiveStringSearch('lorie loled', 'nothter'));
